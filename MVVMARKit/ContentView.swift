@@ -12,6 +12,10 @@ struct ContentView : View {
     @ObservedObject var arViewModel : ARViewModel = ARViewModel()
     var body: some View {
         ARViewContainer(arViewModel: arViewModel).edgesIgnoringSafeArea(.all)
+        // Adding a sphere at the touch location
+            .onTapGesture(coordinateSpace: .global) { location in
+                            arViewModel.raycastFunc(location: location)
+                        }
     }
 }
 
