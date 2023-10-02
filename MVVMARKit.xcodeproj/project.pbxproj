@@ -12,6 +12,8 @@
 		E92C4BAD2ACB5BDA00301545 /* Experience.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = E92C4BAC2ACB5BDA00301545 /* Experience.rcproject */; };
 		E92C4BAF2ACB5BDC00301545 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E92C4BAE2ACB5BDC00301545 /* Assets.xcassets */; };
 		E92C4BB22ACB5BDC00301545 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E92C4BB12ACB5BDC00301545 /* Preview Assets.xcassets */; };
+		E92C4BC52ACB619D00301545 /* ARModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E92C4BC42ACB619D00301545 /* ARModel.swift */; };
+		E92C4BC72ACB61AC00301545 /* ARViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E92C4BC62ACB61AC00301545 /* ARViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +23,8 @@
 		E92C4BAC2ACB5BDA00301545 /* Experience.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; path = Experience.rcproject; sourceTree = "<group>"; };
 		E92C4BAE2ACB5BDC00301545 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E92C4BB12ACB5BDC00301545 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E92C4BC42ACB619D00301545 /* ARModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARModel.swift; sourceTree = "<group>"; };
+		E92C4BC62ACB61AC00301545 /* ARViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +57,7 @@
 		E92C4BA72ACB5BDA00301545 /* MVVMARKit */ = {
 			isa = PBXGroup;
 			children = (
+				E92C4BC32ACB619200301545 /* AR */,
 				E92C4BA82ACB5BDA00301545 /* AppDelegate.swift */,
 				E92C4BAA2ACB5BDA00301545 /* ContentView.swift */,
 				E92C4BAC2ACB5BDA00301545 /* Experience.rcproject */,
@@ -68,6 +73,15 @@
 				E92C4BB12ACB5BDC00301545 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E92C4BC32ACB619200301545 /* AR */ = {
+			isa = PBXGroup;
+			children = (
+				E92C4BC42ACB619D00301545 /* ARModel.swift */,
+				E92C4BC62ACB61AC00301545 /* ARViewModel.swift */,
+			);
+			path = AR;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,6 +154,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E92C4BC72ACB61AC00301545 /* ARViewModel.swift in Sources */,
+				E92C4BC52ACB619D00301545 /* ARModel.swift in Sources */,
 				E92C4BAB2ACB5BDA00301545 /* ContentView.swift in Sources */,
 				E92C4BA92ACB5BDA00301545 /* AppDelegate.swift in Sources */,
 				E92C4BAD2ACB5BDA00301545 /* Experience.rcproject in Sources */,
